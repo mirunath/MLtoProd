@@ -1,0 +1,5 @@
+numpy~=1.26.2
+flask~=3.0.0
+pyod~=1.1.1
+jsonpickle~=3.0.2
+requests~=2.31.0
