@@ -86,7 +86,7 @@ def ui():
     response_json = json.loads(response.json())
 
     # generate view message
-    text = 'Prediction:' + ('ANOMALOUS' if str(response_json["result"]) == '0' else 'NORMAL')
+    text = 'Prediction:' + ('ANOMALOUS' if str(response_json["result"]) == '1' else 'NORMAL')
     return render_template('index.html', prediction_text=text)
 
 
